@@ -28,6 +28,12 @@
             android:exported="true"
             android:theme="@style/AppBaseTheme" />
         <activity
+            android:name=".LaunchSimpleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewPagerActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:theme="@style/AppBaseTheme">
             <intent-filter>
